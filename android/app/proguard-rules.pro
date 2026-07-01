@@ -1,0 +1,5 @@
+-keep class com.trailguard.app.** { *; }
+-keep class id.flutter.flutter_background_service.** { *; }
+-keepattributes *Annotation*
+-dontwarn okhttp3.**
+-dontwarn okio.**
